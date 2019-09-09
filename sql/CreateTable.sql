@@ -1,6 +1,6 @@
-Drop Table [Cab].[dbo].[Trip];
+Drop Table [DWH19-05].[dbo].[Trip];
 
-Create Table [Cab].[dbo].[Trip] (
+Create Table [DWH19-05].[dbo].[Trip] (
 	ID int IDENTITY(1,1) Primary Key,
 	Trip_Type nchar(12),
 	Pickup_DateTime Datetime Not Null,
@@ -14,11 +14,11 @@ Create Table [Cab].[dbo].[Trip] (
 	Total_Amt float
 );
 
-Update [Cab].[dbo].[Trip]
+Update [DWH19-05].[dbo].[Trip]
 Set Trip_Type = 'green'
 Where Trip_Type IS NULL;
 
-Update [Cab].[dbo].[Trip]
+Update [DWH19-05].[dbo].[Trip]
 Set Trip_Type = 'yellow'
 Where Trip_Type IS NULL;
 
