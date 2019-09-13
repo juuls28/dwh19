@@ -4,12 +4,12 @@ Create Table [DWH19-05].[dbo].[Point_Of_Interest] (
 	ID int IDENTITY(1,1) Primary Key,
 	Name varchar(100),
 	Geom varchar(50),
-	Latitude varchar(20),
-	Longitude varchar(20)
+	Latitude float,
+	Longitude float
 );
 
 Update p1
-Set Latitude = SUBSTRING(p1.Geom, 8, 18),
-	Longitude = SUBSTRING(p1.Geom, 26, (CHARINDEX(')', p1.Geom) - 26))
+Set Latitude = SUBSTRING(p1.geom, CHARINDEX('(', p1.geom) + 1,CHARINDEX(' ', p1.geom, 7) - CHARINDEX('(', p1.geom) -1),
+	Longitude =  SUBSTRING(p1.geom, CHARINDEX(' ', p1.geom, 7) + 1,CHARINDEX(')', p1.geom) - CHARINDEX(' ', p1.geom,7) - 1 )
 From Point_Of_Interest as p1
 Inner Join Point_Of_Interest as p2 ON p1.ID = p2.ID

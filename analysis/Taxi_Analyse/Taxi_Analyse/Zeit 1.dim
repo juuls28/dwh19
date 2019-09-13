@@ -1,6 +1,6 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="5ddf077a-9660-451f-80bd-dc529c0f6b96" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
-  <ID>Point Of Interest</ID>
-  <Name>Point Of Interest</Name>
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="f13445ee-7a25-4481-8165-c73764627595" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Zeit 1</ID>
+  <Name>Zeit 1</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
   <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
   <Annotations>
@@ -42,26 +42,26 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="5aac3ceb-1737-400e-b04b-a9ccc5186cf4">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="81bcc589-5abd-44e2-9ba2-e4f6f1c3d273">
     <DataSourceViewID>DWH19-05</DataSourceViewID>
   </Source>
-  <ErrorConfiguration dwd:design-time-name="b025efa8-f165-4139-81fb-c49b48378c4c">
+  <ErrorConfiguration dwd:design-time-name="1997157d-847d-474e-bb4b-18ecbfcde9f5">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="aa01b67f-a772-4497-b1f2-6afc23a5da80">
-      <ID>ID</ID>
-      <Name>ID</Name>
+    <Attribute dwd:design-time-name="ae3e24be-01f6-4fb2-9034-5a0975e1b050">
+      <ID>PS Datum</ID>
+      <Name>PS Datum</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="703a647b-fc86-4f45-905c-df4432f567eb">
-          <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="c394daae-b760-4341-bc43-859a3ce1915b">
-            <TableID>dbo_Point_Of_Interest</TableID>
-            <ColumnID>ID</ColumnID>
+        <KeyColumn dwd:design-time-name="34f453e2-9679-4957-af15-2ecc82f182ff">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7fc872f2-7a9f-4971-a564-93e09eac5dd5">
+            <TableID>Zeit</TableID>
+            <ColumnID>Datum</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>

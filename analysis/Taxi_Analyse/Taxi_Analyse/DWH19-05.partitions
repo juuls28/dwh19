@@ -1,17 +1,17 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="338a0ceb-fd8d-4516-a747-4013045a9170" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="ee6f5026-b949-46c0-824a-60cc66b567cf" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>DWH19-05</ID>
   <MeasureGroups>
     <MeasureGroup>
       <ID>JFK Weather</ID>
       <Partitions>
-        <Partition dwd:design-time-name="543a9562-cee6-4a74-83f5-f5995f73df4f">
+        <Partition dwd:design-time-name="f1d418e7-0840-456c-bb3d-9c37246ea3d5">
           <ID>JFK Weather</ID>
           <Name>JFK Weather</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="9783ea7f-cf10-46b4-b38c-a6481ed1d00c">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="df8c7c04-29cc-4bb4-9b10-36c17620f558">
             <DataSourceViewID>DWH19-05</DataSourceViewID>
             <TableID>dbo_JFK_Weather</TableID>
           </Source>
@@ -24,14 +24,14 @@
     <MeasureGroup>
       <ID>Point Of Interest</ID>
       <Partitions>
-        <Partition dwd:design-time-name="b35e434d-ab68-4671-8849-52d573540a3d">
+        <Partition dwd:design-time-name="973d5d93-6868-49ed-a096-743e36918280">
           <ID>Point Of Interest</ID>
           <Name>Point Of Interest</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="cdd5ed5e-2e07-428c-9928-2011045d4894">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="a229a86e-2064-466c-8138-09ea47cb363a">
             <DataSourceViewID>DWH19-05</DataSourceViewID>
             <TableID>dbo_Point_Of_Interest</TableID>
           </Source>
@@ -44,14 +44,14 @@
     <MeasureGroup>
       <ID>Trip</ID>
       <Partitions>
-        <Partition dwd:design-time-name="2389c9fb-4c4d-49d5-905d-0673d0c846ea">
+        <Partition dwd:design-time-name="0384dcc3-6773-4eb7-a28a-0521c8f8cec2">
           <ID>Trip</ID>
           <Name>Trip</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="ae18fe50-0852-4c46-8887-c39e35462976">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="5c0d88b1-d01f-4818-a2d1-3d9da1d9942d">
             <DataSourceViewID>DWH19-05</DataSourceViewID>
             <TableID>dbo_Trip</TableID>
           </Source>
@@ -64,14 +64,14 @@
     <MeasureGroup>
       <ID>Zeit</ID>
       <Partitions>
-        <Partition dwd:design-time-name="9ceaf50e-4ba3-4568-9097-0f4de6fb0589">
+        <Partition dwd:design-time-name="771e2f78-5686-4701-9555-fe82ac5c0c65">
           <ID>Zeit</ID>
           <Name>Zeit</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="117942e6-0282-4d26-9e57-fd2f9b9b658e">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="413cd88b-0633-4e1f-85d7-769fcef53c25">
             <DataSourceViewID>DWH19-05</DataSourceViewID>
             <TableID>Zeit</TableID>
           </Source>
