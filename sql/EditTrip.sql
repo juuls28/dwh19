@@ -24,9 +24,19 @@ Set WeatherId = w.ID
 From Trip t Inner Join JFK_Weather w On t.date = w.date;
 
 Update Trip
-Set StartId = p.ID
-From Trip t Inner Join Point_Of_Interest p On Round(t.Start_Lat,4) = Round(p.Latitude,4) and Round(t.Start_Lon,4) = Round(p.Longitude,4);
+Set Start_Lon = ROUND(Start_Lon,3),
+Start_Lat = ROUND(Start_Lat,3),
+End_Lat = ROUND(End_Lat,3),
+End_Lon = ROUND(End_Lon,3);
+
 
 Update Trip
-Set EndId = p.ID
-From Trip t Inner Join Point_Of_Interest p On Round(t.End_Lat,4) = Round(p.Latitude,4) and Round(t.End_Lon,4) = Round(p.Longitude,4)
+Set StartId = g.ID
+From Trip t Inner Join Geo g On t.Start_Lat = g.Latitude and t.Start_Lon = g.Longitude;
+
+Update Trip
+Set EndId = g.ID
+From Trip t Inner Join Geo g On t.End_Lat = g.Latitude and t.End_Lon = g.Longitude;
+
+Delete From Trip
+Where StartId Is Null AND EndId Is Null;
