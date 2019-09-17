@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "TLC_Analysis", "TLC_Analysis\TLC_Analysis.dwproj", "{FC1275D7-35D4-4087-86B1-251D3787F7F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC1275D7-35D4-4087-86B1-251D3787F7F2}.Development|Default.ActiveCfg = Development
+		{FC1275D7-35D4-4087-86B1-251D3787F7F2}.Development|Default.Build.0 = Development
+		{FC1275D7-35D4-4087-86B1-251D3787F7F2}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

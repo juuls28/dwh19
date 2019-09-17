@@ -1,0 +1,82 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>TLC_Analysis</Database>
+    <Server>fimn-db1.htwk-leipzig.de</Server>
+    <ConnectionString>Data Source=fimn-db1.htwk-leipzig.de;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>xFlzmUDxV9snCtkK9KHKDaxtGtA=17.09.2019 18:49:5417.09.2019 16:30:05</TimeStamp>
+        <ID>
+          <String>DWH19-05</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>L2io/duzq3f5xyfFwjoyERQbmK4=17.09.2019 16:33:5817.09.2019 16:30:16</TimeStamp>
+        <ID>
+          <String>DWH19-05</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>uGgtWzHYss30yXBWEh6HwKzSxVQ=17.09.2019 17:10:2517.09.2019 16:33:58</TimeStamp>
+        <ID>
+          <String>JFK Weather</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>SyxAt+BOQ0kWaKdpmZd3/YtPehA=17.09.2019 17:03:5817.09.2019 16:33:58</TimeStamp>
+        <ID>
+          <String>Geo</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>EmY1YEcMfwAtj2q9LAdR4976D38=17.09.2019 17:09:0617.09.2019 16:33:58</TimeStamp>
+        <ID>
+          <String>Zeit</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>O09iBNymnEWXIVYZ11Wr+2pg/uA=17.09.2019 16:57:5817.09.2019 16:33:58</TimeStamp>
+        <ID>
+          <String>Trip</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>Emp9DjF6RnO2nq+As8hARHgIS+o=17.09.2019 18:55:4617.09.2019 16:33:585T+kPwlobjjnQCrPkaiVO4Lj3uA=17.09.2019 17:39:1817.09.2019 16:33:58</TimeStamp>
+        <ID>
+          <String>DWH19-05</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>B3x8buOMFCtkSReJA+eu3LNEJ1k=17.09.2019 16:29:3117.09.2019 16:29:28</TimeStamp>
+      <ID>
+        <String>TLC_Analysis</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2019-09-17T16:55:48.333333Z</LastDeployed>
+</DeploymentSnapshot>
