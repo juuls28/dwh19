@@ -19,7 +19,7 @@
     <ObjectSnapshots>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
-        <TimeStamp>95BBRRA0coQuiYj5PtfAmm/gQCE=13.09.2019 22:33:5113.09.2019 22:07:34</TimeStamp>
+        <TimeStamp>0HGJv3Au1CQGzC+0oInem+Hhcck=13.09.2019 22:38:1113.09.2019 22:07:34</TimeStamp>
         <ID>
           <String>DWH19-05</String>
         </ID>
@@ -85,5 +85,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>false</ProcessingComplete>
-  <LastDeployed>2019-09-13T20:33:55.303333Z</LastDeployed>
+  <LastDeployed>0001-01-01T00:00:00Z</LastDeployed>
 </DeploymentSnapshot>
