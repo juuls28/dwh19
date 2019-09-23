@@ -8,7 +8,7 @@
     <TransactionalDeployment>false</TransactionalDeployment>
     <PartitionDeployment>DeployPartitions</PartitionDeployment>
     <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
-    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <ProcessingOption>Default</ProcessingOption>
     <OutputScript></OutputScript>
     <ImpactAnalysisFile></ImpactAnalysisFile>
     <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
@@ -19,49 +19,49 @@
     <ObjectSnapshots>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
-        <TimeStamp>xFlzmUDxV9snCtkK9KHKDaxtGtA=17.09.2019 18:49:5417.09.2019 16:30:05</TimeStamp>
+        <TimeStamp>Ei78w6i1oKM9vkZxTmoIPTpcNV0=17.09.2019 22:16:1217.09.2019 20:21:49</TimeStamp>
         <ID>
           <String>DWH19-05</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>L2io/duzq3f5xyfFwjoyERQbmK4=17.09.2019 16:33:5817.09.2019 16:30:16</TimeStamp>
+        <TimeStamp>VpejfcOh3Nv17v0OTQUA4eXpFhg=17.09.2019 23:35:0017.09.2019 21:56:46</TimeStamp>
         <ID>
           <String>DWH19-05</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>uGgtWzHYss30yXBWEh6HwKzSxVQ=17.09.2019 17:10:2517.09.2019 16:33:58</TimeStamp>
-        <ID>
-          <String>JFK Weather</String>
-        </ID>
-      </ObjectSnapshot>
-      <ObjectSnapshot>
-        <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>SyxAt+BOQ0kWaKdpmZd3/YtPehA=17.09.2019 17:03:5817.09.2019 16:33:58</TimeStamp>
+        <TimeStamp>d5/vIt4L4o5XJQzIRRIueGA92t8=17.09.2019 23:35:2817.09.2019 23:35:00</TimeStamp>
         <ID>
           <String>Geo</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>EmY1YEcMfwAtj2q9LAdR4976D38=17.09.2019 17:09:0617.09.2019 16:33:58</TimeStamp>
+        <TimeStamp>qiJbbiahdr16u3fSt9IdgLU7Oo4=18.09.2019 00:32:0617.09.2019 23:35:00</TimeStamp>
+        <ID>
+          <String>JFK Weather</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>LorOYjJviVKhN/qGkIlk7oIpDNg=17.09.2019 23:37:3917.09.2019 23:35:00</TimeStamp>
         <ID>
           <String>Zeit</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>O09iBNymnEWXIVYZ11Wr+2pg/uA=17.09.2019 16:57:5817.09.2019 16:33:58</TimeStamp>
+        <TimeStamp>fZLqDxGN9ppjPHFYdLy/EZrhCpI=18.09.2019 00:21:0317.09.2019 23:35:00</TimeStamp>
         <ID>
           <String>Trip</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>Emp9DjF6RnO2nq+As8hARHgIS+o=17.09.2019 18:55:4617.09.2019 16:33:585T+kPwlobjjnQCrPkaiVO4Lj3uA=17.09.2019 17:39:1817.09.2019 16:33:58</TimeStamp>
+        <TimeStamp>LZxHjpH6Xf5N4DNfoJrzCqxa4wk=18.09.2019 00:32:0617.09.2019 23:35:00nBi7xgi0p8FA1qjeRvwOzc58fjk=17.09.2019 23:35:0017.09.2019 23:35:00</TimeStamp>
         <ID>
           <String>DWH19-05</String>
         </ID>
@@ -69,7 +69,7 @@
     </ObjectSnapshots>
     <DatabaseSnapshot>
       <Type>Microsoft.AnalysisServices.Database</Type>
-      <TimeStamp>B3x8buOMFCtkSReJA+eu3LNEJ1k=17.09.2019 16:29:3117.09.2019 16:29:28</TimeStamp>
+      <TimeStamp>B3x8buOMFCtkSReJA+eu3LNEJ1k=17.09.2019 20:21:4917.09.2019 20:21:49</TimeStamp>
       <ID>
         <String>TLC_Analysis</String>
       </ID>
@@ -78,5 +78,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2019-09-17T16:55:48.333333Z</LastDeployed>
+  <LastDeployed>2019-09-17T22:33:27.26Z</LastDeployed>
 </DeploymentSnapshot>

@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="c5b62006-9772-4dc1-bbab-be96a92d1b76" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="a068349e-6908-4eb9-9981-c953e40329d9" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Trip</ID>
   <Name>Trip</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3578" scrolltop="-4235" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="10663" y="5953" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4729" scrolltop="-5770" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="12965" y="16828" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
             </font>
@@ -19,9 +19,9 @@
           <layoutmanager>
             <ddsxmlobj />
           </layoutmanager>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Trip" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3466" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Trip" left="-191" top="1058" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3466" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
-              <ddsxmlobjectstreaminitwrapper binary="000c00008a0d000088130000" />
+              <ddsxmlobjectstreaminitwrapper binary="000e00008a0d000088130000" />
             </control>
             <layoutobject>
               <ddsxmlobj>
@@ -47,19 +47,19 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-      <Value>-3578</Value>
+      <Value>-4729</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>-4235</Value>
+      <Value>-5770</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
-      <Value>20</Value>
+      <Value>-191</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
-      <Value>0</Value>
+      <Value>1058</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
@@ -68,47 +68,51 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="27ad74d5-989c-4246-9ab4-435637db161c">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="8d2ed8d7-0975-402e-bffa-e28d9e63e436">
     <DataSourceViewID>DWH19-05</DataSourceViewID>
   </Source>
-  <ErrorConfiguration dwd:design-time-name="4e685a19-a15b-4244-ae5d-7341b5278879">
+  <ErrorConfiguration dwd:design-time-name="2394e162-e18e-472a-8e18-9841d2905cf1">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="94072b50-6aee-4e69-82e5-d7a1907dd841">
+    <Attribute dwd:design-time-name="52eec32f-7c4d-4dfe-9c11-edb628a35a85">
       <ID>ID</ID>
       <Name>ID</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="04578a98-8ae0-4e0a-b045-b07cd77053b5">
+        <KeyColumn dwd:design-time-name="347f2f48-2aaf-4933-a51c-70892219e05a">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="14b68a19-77a6-41a7-9cca-ea9a136c4933">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="baed8f71-c761-4ad9-afba-a7e46b6e7d3c">
             <TableID>dbo_Trip</TableID>
             <ColumnID>ID</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="bb99c441-57db-413c-be53-e58ca188e723">
+        <AttributeRelationship dwd:design-time-name="57009d53-0178-4e7f-8dbc-b01eb5af2ab7">
           <AttributeID>Weather Id</AttributeID>
           <Name>Weather Id</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="f25b079b-2cd5-424f-852f-865322cbe39a">
+        <AttributeRelationship dwd:design-time-name="1379fae4-10a6-4d68-a75d-4c9c09c362ff">
           <AttributeID>Start Id</AttributeID>
           <Name>Start Id</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="d3edee5d-2ded-4552-988d-8da1ac792b73">
+        <AttributeRelationship dwd:design-time-name="c54fb119-354a-4c97-9ae1-b72e1a1a37e2">
           <AttributeID>End Id</AttributeID>
           <Name>End Id</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="1c0fac0b-dfed-46b0-8e7a-644fa07d65ac">
-          <AttributeID>Date</AttributeID>
-          <Name>Date</Name>
+        <AttributeRelationship dwd:design-time-name="0167709e-ce25-4a05-ad7e-c6c39c9b976a">
+          <AttributeID>Pickup Date Time</AttributeID>
+          <Name>Pickup Date Time</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="f7f74593-dfa6-4528-a9fc-01801a14ce80">
+        <AttributeRelationship dwd:design-time-name="22feb1e1-9aed-4c3d-b8cc-772504ceac28">
+          <AttributeID>Trip Type</AttributeID>
+          <Name>Trip Type</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="32407768-c76a-4f2d-826c-5410bd0fc2a1">
           <AttributeID>Payment Type</AttributeID>
           <Name>Payment Type</Name>
         </AttributeRelationship>
@@ -117,13 +121,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="f064dd5a-90e1-45f5-863c-7987ed76d8fb">
+    <Attribute dwd:design-time-name="ffa1a70b-cf82-4878-9440-ef524edd0a77">
       <ID>Weather Id</ID>
       <Name>Weather Id</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="cb12d515-450a-4589-a430-8c8a4eec4538">
+        <KeyColumn dwd:design-time-name="2b5774c1-0567-4d8e-ba8b-53b21a60fe5c">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="a623872e-767e-4851-bc16-1f2ed31b5975">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="62b481ec-5046-41d3-b770-20e78d8e7e2b">
             <TableID>dbo_Trip</TableID>
             <ColumnID>WeatherId</ColumnID>
           </Source>
@@ -134,13 +138,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="96fdcd97-55b5-468a-8256-3dd6eb6a39f5">
+    <Attribute dwd:design-time-name="05c5bfab-fb6b-43f4-9332-d437445f166e">
       <ID>Start Id</ID>
       <Name>Start Id</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="0b5d9cf9-7c75-41ea-b65d-d5f65afc0ba3">
+        <KeyColumn dwd:design-time-name="649c6869-a8c5-44fa-87d6-bd6cc72e488e">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="f41b84b3-7848-4179-a6f2-f75f2cfe067f">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="83e4c5a5-c08a-416d-b533-857e5fd76fb7">
             <TableID>dbo_Trip</TableID>
             <ColumnID>StartId</ColumnID>
           </Source>
@@ -151,13 +155,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="3c918032-9c2e-4c39-8a71-5cba7307259f">
+    <Attribute dwd:design-time-name="6d46974f-f42c-4b94-837a-db587b4cc66d">
       <ID>End Id</ID>
       <Name>End Id</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="85f10890-e389-4c0e-b500-39a052d9a3a5">
+        <KeyColumn dwd:design-time-name="eb851c0c-3775-4a6e-aac8-d24bb388184f">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="18671c94-96af-4f1c-bbb5-a2afe06feb44">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c0cfe8f4-02ec-43e0-9bf3-92d3b7452ac6">
             <TableID>dbo_Trip</TableID>
             <ColumnID>EndId</ColumnID>
           </Source>
@@ -168,15 +172,15 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="451fa5b7-6d21-47cb-aa4a-b9a7521b3062">
-      <ID>Date</ID>
-      <Name>Date</Name>
+    <Attribute dwd:design-time-name="f824743e-4ef5-4fa6-af02-2d7701d901e9">
+      <ID>Pickup Date Time</ID>
+      <Name>Pickup Date Time</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="8178b912-27d2-4c75-b0bd-3f49ad84badd">
+        <KeyColumn dwd:design-time-name="16ebfa7d-ac55-416b-8eba-66ee447931d4">
           <DataType>Date</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="22e4c2b9-4d31-4d81-b068-6380f9a29bc5">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0d022723-eb7d-4aa3-a6da-3e6146dff06b">
             <TableID>dbo_Trip</TableID>
-            <ColumnID>Date</ColumnID>
+            <ColumnID>Pickup_DateTime</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
@@ -185,13 +189,29 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="6846ed13-58b7-4cef-b701-b571e52ea9ea">
+    <Attribute dwd:design-time-name="535fcb3e-b5e1-43c8-9173-7760f9933e7e">
+      <ID>Trip Type</ID>
+      <Name>Trip Type</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e28eec44-6183-4c80-8103-36b300c20be9">
+          <DataType>WChar</DataType>
+          <DataSize>12</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f3674b3e-9a32-408e-b5ac-c0bf8477b27c">
+            <TableID>dbo_Trip</TableID>
+            <ColumnID>Trip_Type</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="0569c0e9-13f7-45d8-9631-8ab54063c414">
       <ID>Payment Type</ID>
       <Name>Payment Type</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="9215b3f4-6f47-4628-9aa8-3ae77f15c297">
+        <KeyColumn dwd:design-time-name="25795685-8362-465c-8d31-2587b5ead984">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="0f97547b-9669-43d3-a45f-247a1057d44b">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="675aac6a-b4d2-483c-9614-824bf1496a51">
             <TableID>dbo_Trip</TableID>
             <ColumnID>Payment_Type</ColumnID>
           </Source>

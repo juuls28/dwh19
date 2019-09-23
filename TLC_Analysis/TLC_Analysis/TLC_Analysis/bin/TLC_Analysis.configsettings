@@ -6,17 +6,17 @@
         <ConnectionString>Provider=SQLNCLI11.1;Data Source=fimn-db1.htwk-leipzig.de;Integrated Security=SSPI;Initial Catalog=DWH19-05</ConnectionString>
         <ImpersonationInfo>
           <ImpersonationMode xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">ImpersonateAccount</ImpersonationMode>
-          <Account xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">bgrothue</Account>
+          <Account xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">jseiffer</Account>
           <ImpersonationInfoSecurity xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">PasswordRemoved</ImpersonationInfoSecurity>
         </ImpersonationInfo>
       </DataSource>
     </DataSources>
     <Dimensions>
       <Dimension>
-        <ID>JFK Weather</ID>
+        <ID>Geo</ID>
       </Dimension>
       <Dimension>
-        <ID>Geo</ID>
+        <ID>JFK Weather</ID>
       </Dimension>
       <Dimension>
         <ID>Zeit</ID>
@@ -30,26 +30,10 @@
         <ID>DWH19-05</ID>
         <MeasureGroups>
           <MeasureGroup>
-            <ID>Trip</ID>
-            <Partitions>
-              <Partition>
-                <ID>Trip</ID>
-              </Partition>
-            </Partitions>
-          </MeasureGroup>
-          <MeasureGroup>
             <ID>Geo</ID>
             <Partitions>
               <Partition>
                 <ID>Geo</ID>
-              </Partition>
-            </Partitions>
-          </MeasureGroup>
-          <MeasureGroup>
-            <ID>Zeit</ID>
-            <Partitions>
-              <Partition>
-                <ID>Zeit</ID>
               </Partition>
             </Partitions>
           </MeasureGroup>
@@ -62,10 +46,18 @@
             </Partitions>
           </MeasureGroup>
           <MeasureGroup>
-            <ID>Trip 1</ID>
+            <ID>Trip</ID>
             <Partitions>
               <Partition>
                 <ID>Trip</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Zeit</ID>
+            <Partitions>
+              <Partition>
+                <ID>Zeit</ID>
               </Partition>
             </Partitions>
           </MeasureGroup>

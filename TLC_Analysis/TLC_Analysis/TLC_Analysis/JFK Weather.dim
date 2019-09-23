@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="82ecdce8-93ae-485f-ad60-6506791b274e" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="40341272-b81d-4177-b0c4-b867c9a47585" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>JFK Weather</ID>
   <Name>JFK Weather</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3763" scrolltop="-1601" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="10663" y="5927" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4914" scrolltop="-7052" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="12965" y="16828" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
             </font>
@@ -19,9 +19,9 @@
           <layoutmanager>
             <ddsxmlobj />
           </layoutmanager>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="JFK_Weather" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3096" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="JFK_Weather" left="-3076" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3096" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
-              <ddsxmlobjectstreaminitwrapper binary="000c0000180c0000a50a0000" />
+              <ddsxmlobjectstreaminitwrapper binary="000e0000180c0000a50a0000" />
             </control>
             <layoutobject>
               <ddsxmlobj>
@@ -47,15 +47,15 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-      <Value>-3763</Value>
+      <Value>-4914</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>-1601</Value>
+      <Value>-7052</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
-      <Value>20</Value>
+      <Value>-3076</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
@@ -68,70 +68,51 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="c5dddc06-8519-48cb-80de-5da2f3d2eaf3">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="f84b9c43-c35a-40a7-b42b-ec87ad1f95bf">
     <DataSourceViewID>DWH19-05</DataSourceViewID>
   </Source>
   <UnknownMember>Visible</UnknownMember>
-  <ErrorConfiguration dwd:design-time-name="805eca6b-79d7-4125-a83a-79e9c4c2a952">
+  <ErrorConfiguration dwd:design-time-name="e0b96f19-0295-4d7b-922c-3c6b8e2cf685">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="3f74e080-34df-4efc-b516-af8740292377">
+    <Attribute dwd:design-time-name="085a9c70-28d5-46be-958f-e441def5d23e">
       <ID>ID</ID>
       <Name>ID</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="3efabe6d-02df-4b64-986a-b23c3009ec36">
+        <KeyColumn dwd:design-time-name="01fe6450-9da3-4f6e-b0c7-8e76e927aad3">
           <DataType>Integer</DataType>
           <NullProcessing>UnknownMember</NullProcessing>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="e04f4a99-31e9-45b0-91af-71917cdfa505">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f302e874-6853-429b-8815-2c941d92df28">
             <TableID>dbo_JFK_Weather</TableID>
             <ColumnID>ID</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="99d4c564-31df-4d2a-b7bf-4a279c8bc3ff">
+        <AttributeRelationship dwd:design-time-name="75bc4ab3-d1fc-44d8-b48b-40c68e4bbd7d">
           <AttributeID>Weather Type</AttributeID>
           <Name>Weather Type</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="73761cbf-a920-4591-8c9d-84f77b9ced65">
-          <AttributeID>Temp Avg</AttributeID>
-          <Name>Temp Avg</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="fa60a9f6-4f7a-4945-b979-0d9619318e94">
+    <Attribute dwd:design-time-name="fc92c4ee-7250-4ad4-a2d0-b74333e3bc04">
       <ID>Weather Type</ID>
       <Name>Weather Type</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="59d32cbd-2ead-4111-8b33-6b020c74b451">
+        <KeyColumn dwd:design-time-name="c10df1d5-7a61-428b-b312-093b83597d4f">
           <DataType>WChar</DataType>
           <DataSize>1</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="d6840444-4ed1-40d9-9a95-52c017aabc88">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="801c4bf9-b919-4d23-b792-1a04e102692e">
             <TableID>dbo_JFK_Weather</TableID>
             <ColumnID>Weather_Type</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="7fdc28a6-5c61-4b41-b03f-8fb5cea17a2f">
-      <ID>Temp Avg</ID>
-      <Name>Temp Avg</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="3dd708bf-73a8-4b6c-8996-a085479ed160">
-          <DataType>Double</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="fcec5276-b41b-4fdf-b296-f3d109c19e30">
-            <TableID>dbo_JFK_Weather</TableID>
-            <ColumnID>Temp_Avg</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
