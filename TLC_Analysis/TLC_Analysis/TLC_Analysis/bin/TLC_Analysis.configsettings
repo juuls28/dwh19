@@ -13,16 +13,19 @@
     </DataSources>
     <Dimensions>
       <Dimension>
+        <ID>Zeit</ID>
+      </Dimension>
+      <Dimension>
         <ID>Geo</ID>
       </Dimension>
       <Dimension>
         <ID>JFK Weather</ID>
       </Dimension>
       <Dimension>
-        <ID>Zeit</ID>
+        <ID>Trip</ID>
       </Dimension>
       <Dimension>
-        <ID>Trip</ID>
+        <ID>Point Of Interest</ID>
       </Dimension>
     </Dimensions>
     <Cubes>
@@ -38,14 +41,6 @@
             </Partitions>
           </MeasureGroup>
           <MeasureGroup>
-            <ID>JFK Weather</ID>
-            <Partitions>
-              <Partition>
-                <ID>JFK Weather</ID>
-              </Partition>
-            </Partitions>
-          </MeasureGroup>
-          <MeasureGroup>
             <ID>Trip</ID>
             <Partitions>
               <Partition>
@@ -54,10 +49,18 @@
             </Partitions>
           </MeasureGroup>
           <MeasureGroup>
-            <ID>Zeit</ID>
+            <ID>JFK Weather</ID>
             <Partitions>
               <Partition>
-                <ID>Zeit</ID>
+                <ID>JFK Weather</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Point Of Interest</ID>
+            <Partitions>
+              <Partition>
+                <ID>Point Of Interest</ID>
               </Partition>
             </Partitions>
           </MeasureGroup>

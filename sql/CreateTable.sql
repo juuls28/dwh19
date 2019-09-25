@@ -8,6 +8,8 @@ Create Table [DWH19-05].[dbo].[Trip] (
 	WeatherId int Foreign Key References JFK_Weather(ID),
 	StartId int Foreign Key References Geo(ID),
 	EndId int Foreign Key References Geo(ID),
+	StartPOI int Foreign Key References Point_Of_Interest(ID),
+	EndPOI int Foreign Key References Point_Of_Interest(ID),
 	Passenger_Count Integer,
 	Start_Lon float,
 	Start_Lat float,

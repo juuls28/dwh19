@@ -40,3 +40,7 @@ From Trip t Inner Join Geo g On t.End_Lat = g.Latitude and t.End_Lon = g.Longitu
 
 Delete From Trip
 Where StartId Is Null AND EndId Is Null;
+
+Update Trip
+Set EndPOI = p.ID
+From Trip t Inner Join Point_Of_Interest p On t.End_Lat = P.Latitude and t.End_Lon = P.Longitude;

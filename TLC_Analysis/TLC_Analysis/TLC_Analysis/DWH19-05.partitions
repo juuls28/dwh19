@@ -1,17 +1,17 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="82026ac3-e1aa-4022-b5c4-95bbbd8088d6" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="68b9b1de-33cd-4892-85ff-17e41626ad59" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>DWH19-05</ID>
   <MeasureGroups>
     <MeasureGroup>
       <ID>Geo</ID>
       <Partitions>
-        <Partition dwd:design-time-name="931f2a37-ec1d-4667-9b6c-63d36fdbb0e5">
+        <Partition dwd:design-time-name="4ffbefb7-38f9-4c2d-842f-d5f30a884069">
           <ID>Geo</ID>
           <Name>Geo</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="52007539-8150-4d39-971f-be7882920cca">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="0535b16b-016e-4189-826f-87146f1eee34">
             <DataSourceViewID>DWH19-05</DataSourceViewID>
             <TableID>dbo_Geo</TableID>
           </Source>
@@ -22,36 +22,16 @@
       </Partitions>
     </MeasureGroup>
     <MeasureGroup>
-      <ID>JFK Weather</ID>
-      <Partitions>
-        <Partition dwd:design-time-name="28073b9d-2899-47cb-b0f4-7303734db465">
-          <ID>JFK Weather</ID>
-          <Name>JFK Weather</Name>
-          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
-          <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="0339ec98-6f4e-4340-90c6-ebef147feb67">
-            <DataSourceViewID>DWH19-05</DataSourceViewID>
-            <TableID>dbo_JFK_Weather</TableID>
-          </Source>
-          <StorageMode>Molap</StorageMode>
-          <CurrentStorageMode>Molap</CurrentStorageMode>
-          <ProcessingMode>Regular</ProcessingMode>
-        </Partition>
-      </Partitions>
-    </MeasureGroup>
-    <MeasureGroup>
       <ID>Trip</ID>
       <Partitions>
-        <Partition dwd:design-time-name="d8ef22f5-fa32-45bf-8023-c95b0c1dd03d">
+        <Partition dwd:design-time-name="3925c4d3-c50c-4706-a378-bf193ab17435">
           <ID>Trip</ID>
           <Name>Trip</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="62a34e8b-bbee-433b-beb8-63934b424278">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="2ce49b07-fe13-4739-9c6e-73f340830fa3">
             <DataSourceViewID>DWH19-05</DataSourceViewID>
             <TableID>dbo_Trip</TableID>
           </Source>
@@ -62,18 +42,38 @@
       </Partitions>
     </MeasureGroup>
     <MeasureGroup>
-      <ID>Zeit</ID>
+      <ID>JFK Weather</ID>
       <Partitions>
-        <Partition dwd:design-time-name="ecb955be-5b41-4530-8a6c-5d385180837b">
-          <ID>Zeit</ID>
-          <Name>Zeit</Name>
+        <Partition dwd:design-time-name="12045e3f-b009-4814-a2fb-c210c19f8e6a">
+          <ID>JFK Weather</ID>
+          <Name>JFK Weather</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="d8c68f3b-5b44-4a3d-934b-542caec400f0">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="79cd7ff4-bc3d-43bf-b569-ad7d2d1e88a6">
             <DataSourceViewID>DWH19-05</DataSourceViewID>
-            <TableID>Zeit</TableID>
+            <TableID>dbo_JFK_Weather</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Point Of Interest</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="45fa025a-1a93-4cad-a8bb-acca0c11a41a">
+          <ID>Point Of Interest</ID>
+          <Name>Point Of Interest</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="08f2e4b6-5284-4374-81f7-bc7e15441ca3">
+            <DataSourceViewID>DWH19-05</DataSourceViewID>
+            <TableID>dbo_Point_Of_Interest</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>

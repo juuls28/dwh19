@@ -19,49 +19,56 @@
     <ObjectSnapshots>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
-        <TimeStamp>Ei78w6i1oKM9vkZxTmoIPTpcNV0=17.09.2019 22:16:1217.09.2019 20:21:49</TimeStamp>
+        <TimeStamp>nn6mG/EW7xf0nQkK6CSgrzQp4UQ=25.09.2019 10:40:0625.09.2019 10:40:06</TimeStamp>
         <ID>
           <String>DWH19-05</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>VpejfcOh3Nv17v0OTQUA4eXpFhg=17.09.2019 23:35:0017.09.2019 21:56:46</TimeStamp>
+        <TimeStamp>XDnx+ePF4JLcaufoxbd9HZ30AtA=25.09.2019 12:14:5425.09.2019 10:40:23</TimeStamp>
         <ID>
           <String>DWH19-05</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>d5/vIt4L4o5XJQzIRRIueGA92t8=17.09.2019 23:35:2817.09.2019 23:35:00</TimeStamp>
-        <ID>
-          <String>Geo</String>
-        </ID>
-      </ObjectSnapshot>
-      <ObjectSnapshot>
-        <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>qiJbbiahdr16u3fSt9IdgLU7Oo4=18.09.2019 00:32:0617.09.2019 23:35:00</TimeStamp>
-        <ID>
-          <String>JFK Weather</String>
-        </ID>
-      </ObjectSnapshot>
-      <ObjectSnapshot>
-        <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>LorOYjJviVKhN/qGkIlk7oIpDNg=17.09.2019 23:37:3917.09.2019 23:35:00</TimeStamp>
+        <TimeStamp>ZWH6FlmNg8TMJZWgLZ7cnysfqMA=25.09.2019 10:31:4625.09.2019 10:31:41</TimeStamp>
         <ID>
           <String>Zeit</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>fZLqDxGN9ppjPHFYdLy/EZrhCpI=18.09.2019 00:21:0317.09.2019 23:35:00</TimeStamp>
+        <TimeStamp>6EbjsEj+veo7sY5Mnd0ry7qoo3g=25.09.2019 14:49:1725.09.2019 12:15:15</TimeStamp>
+        <ID>
+          <String>Geo</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>KFlZJZ12E+lIQjFXXJM15ylVN+0=25.09.2019 17:18:1925.09.2019 12:15:15</TimeStamp>
+        <ID>
+          <String>JFK Weather</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>ahao9S4yeJwCS3H39qHDltx4o84=25.09.2019 12:38:4025.09.2019 12:15:15</TimeStamp>
         <ID>
           <String>Trip</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>tsArdiL2NQyqsabCowwG7fD2B4s=25.09.2019 14:03:0225.09.2019 13:46:45</TimeStamp>
+        <ID>
+          <String>Point Of Interest</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>LZxHjpH6Xf5N4DNfoJrzCqxa4wk=18.09.2019 00:32:0617.09.2019 23:35:00nBi7xgi0p8FA1qjeRvwOzc58fjk=17.09.2019 23:35:0017.09.2019 23:35:00</TimeStamp>
+        <TimeStamp>JDpFaIU6bfDz+loynmLEsH3s/a8=25.09.2019 17:18:1925.09.2019 12:15:15SYCoKQ9nE9VEmWgwMvHED5FK20I=25.09.2019 14:08:4625.09.2019 12:15:15</TimeStamp>
         <ID>
           <String>DWH19-05</String>
         </ID>
@@ -78,5 +85,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2019-09-17T22:33:27.26Z</LastDeployed>
+  <LastDeployed>2019-09-25T15:21:36.21Z</LastDeployed>
 </DeploymentSnapshot>
